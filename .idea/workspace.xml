@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/aor/numbers/ListAggregator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/aor/numbers/ListAggregator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/aor/numbers/ListAggregatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/aor/numbers/ListAggregatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.aor.numbers.ListAggregatorTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.aor.numbers.ListAggregatorTest.html" afterDir="false" />
@@ -25,7 +26,11 @@
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/numbers/ListAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/numbers/ListAggregator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/numbers/ListDeduplicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/numbers/ListDeduplicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/aor/numbers/ListSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/aor/numbers/ListSorter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/aor/numbers/ListAggregatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aor/numbers/ListAggregatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aor/numbers/ListDeduplicatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aor/numbers/ListDeduplicatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/aor/numbers/ListSorterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/aor/numbers/ListSorterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +42,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,7 +57,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FzXhfwzmF9lVHMsXi2dcecWbFI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -92,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665496011456</updated>
-      <workItem from="1665496012583" duration="1216000" />
+      <workItem from="1665496012583" duration="3661000" />
     </task>
     <servers />
   </component>
