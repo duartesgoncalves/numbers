@@ -4,13 +4,23 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class DivisibleByFilterTest {
-    private Integer number = 21;
+    private Integer number = 4;
 
     @Test
-    public void accept() {
+    public void non_divisible() {
         DivisibleByFilter filter = new DivisibleByFilter(3);
-        boolean answer = filter.accept(number);
+        Assertions.assertFalse(filter.accept(number));
+    }
 
-        Assertions.assertEquals(true, answer);
+    @Test
+    public void divisible() {
+        DivisibleByFilter filter = new DivisibleByFilter(2);
+        Assertions.assertTrue(filter.accept(number));
+    }
+
+    @Test
+    public void division_by_zero() {
+        DivisibleByFilter filter = new DivisibleByFilter(0);
+        Assertions.assertFalse(filter.accept(number));
     }
 }

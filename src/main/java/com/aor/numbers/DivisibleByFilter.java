@@ -8,7 +8,7 @@ public class DivisibleByFilter implements GenericListFilter {
     }
 
     public boolean accept(Integer number) {
+        if (this.number == 0) return false;
         return number % this.number == 0;
     }
-
 }

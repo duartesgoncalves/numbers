@@ -8,13 +8,21 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PositiveFilterTest {
-    private Integer number = 1;
+    @Test
+    public void positive() {
+        PositiveFilter filter = new PositiveFilter();
+        Assertions.assertTrue(filter.accept(1));
+    }
 
     @Test
-    public void accept() {
+    public void negative() {
         PositiveFilter filter = new PositiveFilter();
-        boolean answer = filter.accept(number);
+        Assertions.assertFalse(filter.accept(-1));
+    }
 
-        Assertions.assertEquals(true, answer);
+    @Test
+    public void zero() {
+        PositiveFilter filter = new PositiveFilter();
+        Assertions.assertFalse(filter.accept(0));
     }
 }
