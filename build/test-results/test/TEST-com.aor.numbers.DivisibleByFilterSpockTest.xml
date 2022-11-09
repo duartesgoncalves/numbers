@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.aor.numbers.DivisibleByFilterSpockTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-08T23:59:35" hostname="DESKTOP-LVI5H8M" time="0.309">
+  <properties/>
+  <testcase name="accept divide by 2" classname="com.aor.numbers.DivisibleByFilterSpockTest" time="0.306"/>
+  <testcase name="accept divide by 3" classname="com.aor.numbers.DivisibleByFilterSpockTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
